@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:poppins;
+}
+/* .left-contact-text{
+    width: 153px;
+    height: 153px;
+    position: absolute;
+    top: 4px;
+    left: 68px;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.16px;
+
+
+}*/
+
+/* top navbar css started */
+
+.top-navbar{
+    font-size: 16px;
+    height: 44px;
+    background:#4C4D4B;
+  
+}
+.right-contact{
+
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.16px;
+}
+.menu-list{
+    float: right;
+} 
+.navbarclass{
+    display: flex;
+    text-align: right;
+    list-style: none;
+    float: right;
+
+    
+}
+.navbarclass li{
+ text-decoration: none;
+ margin: 7px 11px ;
+ color: white;
+ 
+} 
+.navbarclass li a{
+ text-decoration: none;
+ color: white;
+ 
+} 
+
+/* second navbar started */
+.left-bar i{
+    color: #333332;
+
+    float: right;
+}
+
+/* firstbody-div css start */
+.firstbody-div{
+    background-image: url('./Assists/1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 525px;
+   
+
+}
+.firstbody-text{
+    box-sizing: border-box;
+    width: 779px;
+    height: 157px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.firstbody-text h2, .firstbody-text h1{
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+    Offset: 0px, 4px
+
+}
+.firstbody-text h1{
+    font-weight: bolder;
+    
+}
+
+.box-div{
+    width: 908px;
+    height: 84.7px;
+    position: relative;
+    top: 178px;
+}
+.boxtext-div {
+    position: relative;
+    top: 2px;
+    left: 95px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 27px;
+}
+.boxtext-div span{
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+    .firstbody-text h1,.firstbody-text h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-top: 45px;
+    }
+    .boxtext-div  {
+        position: relative;
+        top: -28px;
+        left: 10px;
+        text-align: center;
+       
+    }
+
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .boxtext-div  {
+        position: relative;
+        top: 3px;
+        left: 5px;
+        text-align: center;
+       
+    }
+
+}
+
+
+/* second body css start */
+.second-div {
+    position: relative;
+    top: 90px;
+    
+}
+.secondbody-img{
+    width: 430px;
+    height: 409px;
+
+}
+.secondbody-text {
+    position: relative;
+    top: 70px;
+    left: 53px;
+}
+.secondbody-text h1{
+    width: 360px;
+    height: 87px;
+    font-weight: 700px;
+    font-size: 33px;
+    line-height: 50px;
+    
+}
+.secondbody-text p{
+    width: 432px;
+    height: 119px;
+    position: relative;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24.3px;
+    /* letter-spacing: 0.1px; */
+}
+@media screen and (max-width: 643px) {
+    .secondbody-img{
+        width: 200px;
+        height: 200px;
+    
+    }
+    .secondbody-text {
+        position: relative;
+        top: 210px;
+        left: 40px;
+    }
+    .secondbody-text p{
+        width: 300px;
+        height: 119px;
+        position: relative;
+        top: 25px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 24.3px;
+        /* letter-spacing: 0.1px; */
+    }
+
+    }

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Font added Here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100&display=swap" rel="stylesheet">
+    <!--Bootstrap 5 links added Here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!--Bootstrap 4 links added Here-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
+       <!--Bootstrap 3 links added Here-->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+      <!--NavBar1 started Here-->
+      <nav class="navbar navbar-dark bg-dark text-white justify-content-between">
+        <a class="navbar-brand ml-5 ">(+1) 361-573-2428</a>
+        <form class="form-inline navbar1_links mr-5">
+            <a href="#">Electric</a>
+            <a href="#">Internet</a>
+            <a href="#">  <i class="fa fa-search  fa-2x"></i></a>
+
+        </form>
+      </nav>
+    <!--NavBar2 started Here-->
+    <div class="topnav">
+      <a href="#home" class="active py-0"><img src="./Assists/logo.jpg" id="navbarlogo" alt=""></a>
+   
+      <a href="javascript:void(0);" class="icon mr-3 pb-2" onclick="openNav()">
+        <i class="fa fa-bars fa-2x menu_nav_icon"></i>
+      </a>
+  </div>
+  <!--Menue div started Here-->
+  <div id="myNav" class="overlay">
+    
+    <div class="overlay-content">
+      <div class="container-fluid bg-success">
+        
+        <div class="row">
+          <!--Left-->
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 Menue_left_div">
+            <div class=" container-fluid d-flex align-items-center text-white text-center">
+             <h1><div><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div></h1>
+              <div class="box  m-auto">
+              <ul>
+                <li>
+                  <!--Collapse-->
+                  
+                    <a type="button" class="btn Menue_left_div_collapse_button text-white" 
+                    data-toggle="collapse" data-target="#demo" onclick="arrow()">
+                    Residential Serivces
+                    <i class="fa fa-angle-down rotate-icon ml-5 mt-1" id="arrow" aria-hidden="true"></i>
+                  </a>
+                    <div id="demo" class="collapse  Menue_left_div_collapse_body">
+                      <ul>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Load Management</a></li>
+                        <li><a href="#">Outage</a></li>
+                        <li><a href="#">AMI Meters</a></li>
+                        <li><a href="#">Construction</a></li>
+                      </ul>
+                    </div>
+                  
+                  <!--Collapse-->
+                </li>
+                <li><a href="#">Commercial Serivces</a></li>
+                <li><a href="#">About Us</a></li>
+                <li>
+                  <a type="button" class="btn Menue_left_div_collapse_button text-white Menue_left_div_collapse_button2" 
+                    data-toggle="collapse" data-target="#demo1" onclick="arrow1()">
+                    Community
+                    <i class="fa fa-angle-down rotate-icon ml-5 mt-1" id="arrow1" aria-hidden="true"></i>
+                  </a>
+                    <div id="demo1" class="collapse  Menue_left_div_collapse_body">
+                      <ul>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Products</a></li>
+                      </ul>
+                    </div>
+                  
+                </li>
+                <li><a href="#">Internet</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+                
+              </div>
+             </div>
+          </div>
+            <!--Right-->
+            <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 Menue_right_div">
+              <div class=" container-fluid d-flex align-items-center text-white text-center">
+                <div class="box  m-auto py-5">
+                  
+                  <ul>
+                    <li><h5>Contact</h5></li>
+                    <li>5502 US HWY 59N</li>
+                    <li>Victoria, Texas 77905</li>
+                    <li>Hours: 7:30 a.m. - 5:00 p.m.</li>
+                    <li>Phone: 361-573-2428</li>
+                    <li><button class="btn btn-success Live_Chat_button">Live Chat</button></li>
+                    <li><h5>SOCIALIZE</h5></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+         
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+    <!--NavB
+    <!--NavBar2 Ended Here-->
+    <!--first body div-->
+        <div class="container-fluid first_body_div">
+            <div class="row">
+                <div class="col-12 text-center "> 
+                    <div class="first_body_text-div">
+                        <h1>Your Cooperative</h1>
+                        <h2 class="mt-3">Powering Your Community</h2>
+                    </div>
+                    <div class="first_body_buttons_div container ">
+                        <div class="row text-center">
+                            <div class="col-lg-4 col-xl-4 col-sm-12 col-12 col-md-4 col-xs-12 first_body_buttons_text_div ">
+                                <h5  class="firstdiv_1button" > <a href="#"><span>Sign Up</span>  For Service </a></h5> </div>
+                            <div class="col-lg-4 col-xl-4 col-sm-12 col-12 col-md-4 col-xs-12 first_body_buttons_text_div ">
+                              <h5 class="firstdiv_2button"> <a href="#"><span>Member</span>Login</a> </h5></div>
+                            <div class="col-lg-4 col-xl-4 col-sm-12 col-12 col-md-4 col-xs-12 first_body_buttons_text_div">
+                              <h5 class="firstdiv_3button"> <a href="#"><span>Report</span>an Outrage</a> </h5> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   <!--secound body div-->
+   <div class="container-fluid second_body_div">
+    <div class="row">
+        <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12 second_body_img_div text-center">
+          <img src="./Assists/2.png" alt="">
+        </div>
+        <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12  second_body_text_div">
+            <h1 class="text-dark">Provide Safe, Reliable, and <strong class="text-success">Affordable Electic</strong></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <h4> <button class="px-5 py-2 btn btn-outline-dark">View Map</button></h4>
+        </div>
+    </div>
+   </div>
+   <!--third body div-->
+   <div class="container-fluid third_body_div">
+    <div class="row">
+        <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12  third_body_text_div">
+            <h1 class="text-white">Service &<strong class="text-success"> Community</strong></h1>
+            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <h4> <button class="px-5 py-2 btn btn-outline-light">Learn More</button></h4>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12 third_body_img_div text-center">
+          <img src="./Assists/3.png" alt="">
+        </div>
+    </div>
+   </div>
+     <!--fourth body div-->
+     <div class="container-fluid fourth_body_div">
+      <div class="row">
+        <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12 fourth_body_img_div text-center">
+          <img src="./Assists/4.png" alt="">
+        </div>
+          <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-12 col-xs-12  fourth_body_text_div">
+              <h1 class="">Cooperative<strong class="text-success"> Careers</strong></h1>
+              <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+              <h4> <button class="px-5 py-2 btn btn-outline-dark">Learn More</button></h4>
+          </div>
+      </div>
+     </div>
+     <!--fifth body div-->
+     <div class="container-fluid">
+     <div class="row">
+      <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-6 col-xs-6 p-0 m-0 ">
+        <div class="card fifthdiv_card1">
+          <div class="card-body">
+            <h5 class="card-title text-white">Co-op Connections Card</h5>
+            <p class="card-text text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-6 col-sm-12 col-12 col-md-6 col-xs-6 p-0 m-0 ">
+        <div class="card fifthdiv_card2">
+          <div class="card-body">
+            <h5 class="card-title text-white">Texas Co-op Power</h5>
+            <p class="card-text text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+            <a href="#" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--sixth body div-->
+  <div class="container-fluid sixth_div_body text-white py-4">
+    <div class="row">
+      <!---->
+      <div class="col-lg-3 col-xl-3 col-sm-6 col-12 col-md-3 col-xs-6 sixth_div_body_1 py-4 ">
+        <h3 class="ml-4 ">CONTACT US</h3>
+        <hr class="">
+        <ul>
+          <li>Mon - Fri 7:30 a.m. - 5:00 p.m.</li>
+          <li>5502 US HWY 59N</li>
+          <li>Victoria, Texas 77905</li>
+          <li>(361) 573-2428</li>
+        </ul>
+      </div>
+      <!---->
+      <div class="col-lg-3 col-xl-3 col-sm-6 col-12 col-md-3 col-xs-6 sixth_div_body_1 py-4 ">
+        <h3 class="ml-4 ">QUICK LINKS</h3>
+        <hr class="">
+        <ul class="QUICK_LINKS">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Internet</a></li>
+          <li><a href="#">Beat The Peak</a></li>
+          <li><a href="#">Kids Energy Zone</a></li>
+         
+        </ul>
+      </div>
+      <!---->
+      <div class="col-lg-3 col-xl-3 col-sm-6 col-12 col-md-3 col-xs-6 sixth_div_body_1 sixth_div_body3 py-4 ">
+        <h3 class="ml-4 quick_link2_heading"> </h3>
+        <ul class="QUICK_LINKS">
+          <li><a href="#">Member Login</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Board & Employee Portal</a></li>
+        </ul>
+      </div>
+      <!---->
+      <div class="col-lg-3 col-xl-3 col-sm-6 col-12 col-md-3 col-xs-6 sixth_div_body_1 sixth_div_body4 py-4 ">
+        <h3 class="sixth_div_img"><img src="./Assists/7.png" alt=""></h3>
+        <ul>
+          <li><button class=" btn btn-outline-light">Employee Login</button></li>
+          <li><button class=" mt-2 btn btn-outline-light">Board Login</button></li>
+
+        </ul>
+      </div>
+     
+      </div>
+      </div>
+   <!--footer-->
+   <footer class="pt-3">
+    © Copyright 2021, Victoria Electric Coop | All Rights Reserved.
+   </footer>
+    <!--************************************************************************-->
+    <!--Script started here-->
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      function arrow(){
+        if(document.getElementById("arrow").style.transform==="rotate(180deg)")
+        {document.getElementById("arrow").style.transform="rotate(0deg)"}
+        else{document.getElementById("arrow").style.transform="rotate(180deg)"}
+      }
+      function arrow1(){
+        if(document.getElementById("arrow1").style.transform==="rotate(180deg)")
+        {document.getElementById("arrow1").style.transform="rotate(0deg)"}
+        else{document.getElementById("arrow1").style.transform="rotate(180deg)"}
+      }
+      </script>
+    <!--Script Endeded here-->
+</body>
+</html>
